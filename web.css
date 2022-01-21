@@ -14,10 +14,10 @@
   display: flex;
   list-style: none;
   justify-content: space-between;
-  padding-left: 20px;
 }
 .header-home-mob .header-home-mob-list .burguer-mob img {
   width: 50px;
+  padding-left: 20px;
 }
 .header-home-mob .header-home-mob-list li {
   padding-right: 20px;
@@ -26,6 +26,19 @@
 
 .logo-mob img {
   width: 100px;
+  height: 100%;
+}
+
+.pink-car img {
+  width: 100%;
+}
+
+.header-mobile-text {
+  text-align: center;
+  background-color: #14fbbb;
+}
+.header-mobile-text img {
+  width: 100%;
 }
 
 .header-home-list {
