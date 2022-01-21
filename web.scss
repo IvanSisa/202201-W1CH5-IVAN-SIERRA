@@ -13,10 +13,11 @@
         display: flex;
         list-style: none;
         justify-content: space-between;
-        padding-left: 20px;
+        
         .burguer-mob{
             img{
-               width: 50px; 
+               width: 50px;
+               padding-left: 20px; 
             }
             
         }
@@ -30,8 +31,26 @@
     
     img{
         width: 100px;
+        height: 100%;
     }
 }
+.pink-car{
+    img{
+        width: 100%;
+    }
+}
+.header-mobile-text{
+    text-align: center;
+    
+    background-color: #14fbbb;
+    img{
+        width: 100%;
+    }
+}
+
+
+
+
 .header-home-list{
     display: none;
 /*
