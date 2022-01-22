@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
@@ -68,11 +67,15 @@
   background-color: #14fbbb;
 }
 
+.header-home-mob {
+  width: 100%;
+}
 .header-home-mob .header-home-mob-list {
   height: 100px;
   display: flex;
   list-style: none;
   justify-content: space-between;
+  width: 100%;
 }
 .header-home-mob .header-home-mob-list .burguer-mob img {
   width: 50px;
@@ -129,115 +132,7 @@
   width: 50px;
 }
 
-/* función para colocar imagenes*/
-.CLASE8 {
-  background-image: url("/images/work/media/media8.jpg");
-}
-
-.CLASE9 {
-  background-image: url("/images/work/media/media9.jpg");
-}
-
-.CLASE10 {
-  background-image: url("/images/work/media/media10.jpg");
-}
-
-.CLASE11 {
-  background-image: url("/images/work/media/media11.jpg");
-}
-
-.CLASE12 {
-  background-image: url("/images/work/media/media12.jpg");
-}
-
-.CLASE13 {
-  background-image: url("/images/work/media/media13.jpg");
-}
-
-.CLASE14 {
-  background-image: url("/images/work/media/media14.jpg");
-}
-
-.CLASE15 {
-  background-image: url("/images/work/media/media15.jpg");
-}
-
-.CLASE16 {
-  background-image: url("/images/work/media/media16.jpg");
-}
-
-.CLASE17 {
-  background-image: url("/images/work/media/media17.jpg");
-}
-
-.CLASE18 {
-  background-image: url("/images/work/media/media18.jpg");
-}
-
-.CLASE19 {
-  background-image: url("/images/work/media/media19.jpg");
-}
-
-.CLASE20 {
-  background-image: url("/images/work/media/media20.jpg");
-}
-
-.CLASE21 {
-  background-image: url("/images/work/media/media21.jpg");
-}
-
-.CLASE22 {
-  background-image: url("/images/work/media/media22.jpg");
-}
-
-.CLASE23 {
-  background-image: url("/images/work/media/media23.jpg");
-}
-
-.CLASE24 {
-  background-image: url("/images/work/media/media24.jpg");
-}
-
-.CLASE25 {
-  background-image: url("/images/work/media/media25.jpg");
-}
-
-.CLASE26 {
-  background-image: url("/images/work/media/media26.jpg");
-}
-
-.CLASE27 {
-  background-image: url("/images/work/media/media27.jpg");
-}
-
-.CLASE28 {
-  background-image: url("/images/work/media/media28.jpg");
-}
-
-.CLASE29 {
-  background-image: url("/images/work/media/media29.jpg");
-}
-
-.CLASE30 {
-  background-image: url("/images/work/media/media30.jpg");
-}
-
-.CLASE31 {
-  background-image: url("/images/work/media/media31.jpg");
-}
-
-.CLASE32 {
-  background-image: url("/images/work/media/media32.jpg");
-}
-
-.CLASE33 {
-  background-image: url("/images/work/media/media33.jpg");
-}
-
-.CLASE34 {
-  background-image: url("/images/work/media/media34.jpg");
-}
-
+/* WORKS*/
 /* HEADER WEB*/
 .header-home-list {
   display: none;

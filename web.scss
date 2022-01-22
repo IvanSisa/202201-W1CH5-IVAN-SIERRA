@@ -53,12 +53,13 @@
     background-color: #14fbbb;
 }
 .header-home-mob{
+    width: 100%;
     .header-home-mob-list{
         height: 100px;
         display: flex;
         list-style: none;
         justify-content: space-between;
-        
+        width: 100%;
         .burguer-mob{
             img{
                width: 50px;
@@ -122,13 +123,8 @@
         
     }
 }
-/* función para colocar imagenes*/
+/* WORKS*/
 
-@for $i from 8 through 34 {
-    .CLASE#{$i} {
-      background-image: url("/images/work/media/media#{$i}.jpg");
-    }
-  }
 
 /* HEADER WEB*/
 
