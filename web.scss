@@ -37,6 +37,9 @@
 .green{
     color: #14fbbb;
 }
+.backgreen{
+    background-color: #14fbbb ;
+}
 .white{
     color: white;
 }
@@ -46,6 +49,12 @@
 .line{
     text-decoration: line-through;
     text-decoration-color: pink;
+}
+.mar-bot-80{
+    margin-bottom: 80px;
+}
+.pad-bot-40{
+    padding-bottom: 40px;
 }
 /* HEADER HOME*/
 
@@ -88,7 +97,7 @@
         display: block;
     }
 }
-.header-mobile-text{
+.header-mobile-text, .main-mobile-text{
     text-align: center;
     background-color: #14fbbb;
     p img{
@@ -123,7 +132,11 @@
         
     }
 }
-/* WORKS*/
+.main-mobile-text{
+    p{
+        padding: 0 30px;
+    }
+}
 
 
 /* HEADER WEB*/
