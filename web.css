@@ -49,6 +49,10 @@
   color: #14fbbb;
 }
 
+.backgreen {
+  background-color: #14fbbb;
+}
+
 .white {
   color: white;
 }
@@ -60,6 +64,14 @@
 .line {
   text-decoration: line-through;
   text-decoration-color: pink;
+}
+
+.mar-bot-80 {
+  margin-bottom: 80px;
+}
+
+.pad-bot-40 {
+  padding-bottom: 40px;
 }
 
 /* HEADER HOME*/
@@ -97,17 +109,17 @@
   display: block;
 }
 
-.header-mobile-text {
+.header-mobile-text, .main-mobile-text {
   text-align: center;
   background-color: #14fbbb;
 }
-.header-mobile-text p img {
+.header-mobile-text p img, .main-mobile-text p img {
   width: 60px;
 }
-.header-mobile-text img {
+.header-mobile-text img, .main-mobile-text img {
   width: 100%;
 }
-.header-mobile-text h5 {
+.header-mobile-text h5, .main-mobile-text h5 {
   padding-bottom: 60px;
   padding-top: 20px;
 }
@@ -132,7 +144,10 @@
   width: 50px;
 }
 
-/* WORKS*/
+.main-mobile-text p {
+  padding: 0 30px;
+}
+
 /* HEADER WEB*/
 .header-home-list {
   display: none;
