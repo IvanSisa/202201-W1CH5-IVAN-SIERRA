@@ -246,6 +246,37 @@
   transform: scale(1.3);
 }
 
+.about-main-img img {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.about-main-img {
+  background-color: #14fbbb;
+}
+
+.about-main-text {
+  padding-top: 50px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.about-main-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0px auto;
+  padding: 50px 0;
+}
+.about-main-items div {
+  margin: 0 20px;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
 .footer-hom-web {
   padding-top: 50px;
   display: flex;
