@@ -226,6 +226,26 @@
   width: 100%;
 }
 
+.works-list-images {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: black;
+  column-count: 3;
+}
+.works-list-images .works-img {
+  width: 33.33%;
+  height: 300px;
+  overflow: hidden;
+}
+.works-list-images .works-img img {
+  width: 100%;
+}
+.works-list-images .works-img .works-img:hover img {
+  transform: scale(1.3);
+}
+
 .footer-hom-web {
   padding-top: 50px;
   display: flex;
